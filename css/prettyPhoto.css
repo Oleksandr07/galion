@@ -1,0 +1,401 @@
+/* ------------------------------------------------------------------------
+	This you can edit.
+------------------------------------------------------------------------- */
+
+	/* ----------------------------------
+		Default Theme
+	----------------------------------- */
+
+	div.pp_default .pp_top,
+	div.pp_default .pp_top .pp_middle,
+	div.pp_default .pp_top .pp_left,
+	div.pp_default .pp_top .pp_right,
+	div.pp_default .pp_bottom,
+	div.pp_default .pp_bottom .pp_left,
+	div.pp_default .pp_bottom .pp_middle,
+	div.pp_default .pp_bottom .pp_right { height: 13px; }
+	
+	
+	div.pp_default .pp_content .ppt { color: #f8f8f8; }
+	div.pp_default .pp_content { background-color: transparent; } /* Content background */
+	div.pp_default #pp_full_res .pp_inline { color: #000; } 
+	div.pp_default .pp_social { margin-top: 7px; }
+
+	div.pp_default .pp_nav .pp_play,
+	div.pp_default .pp_nav .pp_pause { background-position: -51px -29px; }
+	div.pp_default .pp_details { position: relative; }
+	div.pp_default .pp_content_container .pp_details { margin-top: 0px; }
+	div.pp_default .pp_nav { clear: none; height: 30px; width: 110px; position: relative; }
+	div.pp_default .pp_nav .currentTextHolder{ font-family: Georgia; font-style: italic; color:#999; font-size: 11px; left: 75px; line-height: 25px; margin: 0; padding: 0 0 0 10px; position: absolute; top: 2px; }
+	
+	div.pp_default, div.pp_default .pp_nav .pp_play:hover, div.pp_default .pp_nav .pp_pause:hover, div.pp_default .pp_arrow_next:hover, div.pp_default .pp_arrow_previous:hover { opacity:1; }
+
+	div.pp_default .pp_description{ font-size: 14px;  line-height: 20px; font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;display: inline-block;*display: inline;zoom:1;vertical-align: middle;padding:0 !important;color:#fff;}
+
+
+
+	
+/* ------------------------------------------------------------------------
+	DO NOT CHANGE
+------------------------------------------------------------------------- */
+
+	div.pp_pic_holder a:focus { outline:none; }
+
+	div.pp_overlay {
+		background: #000;
+		display: none;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 9500;
+	}
+	
+	div.pp_pic_holder {
+		display: none;
+		position: absolute;
+		width: 100px;
+		z-index: 10000;
+	}
+
+		
+		.pp_top {
+			height: 20px;
+			position: relative;
+		}
+			* html .pp_top { padding: 0 20px; }
+		
+			.pp_top .pp_left {
+				height: 20px;
+				left: 0;
+				position: absolute;
+				width: 20px;
+			}
+			.pp_top .pp_middle {
+				height: 20px;
+				left: 20px;
+				position: absolute;
+				right: 20px;
+			}
+				* html .pp_top .pp_middle {
+					left: 0;
+					position: static;
+				}
+			
+			.pp_top .pp_right {
+				height: 20px;
+				left: auto;
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 20px;
+			}
+		
+		.pp_content { height: 40px; min-width: 40px; }
+		* html .pp_content { width: 40px; }
+		
+		.pp_fade { display: none; }
+		
+		.pp_content_container {
+			position: relative;
+			text-align: left;
+			width: 100%;
+		}
+		
+			.pp_content_container .pp_left { padding-left: 0px; }
+			.pp_content_container .pp_right { padding-right: 0px; }
+		
+			.pp_content_container .pp_details {
+				clear: both;
+				margin:0;
+				position: absolute !important;
+				bottom:0;left:0;
+				line-height: 34px;
+				max-height: 34px;
+				overflow: hidden;
+				text-align: center;
+				background: rgba(0,0,0,0.86);
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#86000000,endColorstr=#86000000);
+				zoom:1;
+			}
+				.pp_description {
+					margin: 0;
+				}
+				
+				.pp_social { float: left; margin: 0;display: none; }
+				.pp_social .facebook { float: left; margin-left: 5px; width: 55px; overflow: hidden; }
+				.pp_social .twitter { float: left; }
+				
+				.pp_nav {
+					clear: right;
+					float: left;
+					margin: 3px 10px 0 0;
+					display: none !important;
+				}
+				
+					.pp_nav p {
+						float: left;
+						margin: 2px 4px;
+						white-space: nowrap;
+					}
+					
+					.pp_nav .pp_play,
+					.pp_nav .pp_pause {
+						float: left;
+						margin-right: 4px;
+						text-indent: -10000px;
+					}
+				
+					a.pp_arrow_previous,
+					a.pp_arrow_next {
+						display: block;
+						float: left;
+						overflow: hidden;
+						text-indent: -10000px;
+					}
+		
+		.pp_hoverContainer {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 2000;
+		}
+		
+		
+		
+		a.pp_expand,
+		a.pp_contract {
+			cursor: pointer;
+			display: none;
+			height: 20px;	
+			position: absolute;
+			right: 30px;
+			text-indent: -10000px;
+			top: 10px;
+			width: 20px;
+			z-index: 20000;
+		}
+			
+		
+		.pp_bottom {
+			height: 20px;
+			position: relative;
+		}
+			* html .pp_bottom { padding: 0 20px; }
+			
+			.pp_bottom .pp_left {
+				height: 20px;
+				left: 0;
+				position: absolute;
+				width: 0px;
+			}
+			.pp_bottom .pp_middle {
+				height: 20px;
+				left: 20px;
+				position: absolute;
+				right: 20px;
+				display: none;
+			}
+				* html .pp_bottom .pp_middle {
+					left: 0;
+					position: static;
+				}
+				
+			.pp_bottom .pp_right {
+				height: 20px;
+				left: auto;
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 20px;
+			}
+		
+		.pp_loaderIcon {
+			display: block;
+			height: 24px;
+			left: 50%;
+			margin: -12px 0 0 -12px;
+			position: absolute;
+			top: 50%;
+			width: 24px;
+		}
+		
+		#pp_full_res {
+			line-height: 1 !important;
+		}
+		
+			#pp_full_res .pp_inline {
+				text-align: left;
+			}
+			
+				#pp_full_res .pp_inline p { margin: 0 0 15px 0; }
+	
+		div.ppt {
+			color: #fff;
+			display: none;
+			font-size: 17px;
+			margin: 0 0 5px 15px;
+			z-index: 9999;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+.ppt,.pp_middle, .pp_top {
+	display: none !important;
+}
+
+		a.pp_close {
+			display: block;
+				height:13px;
+				float: left;
+				line-height: 13px;
+				margin-right: 20px;
+				padding:0;
+				background: url(../img/spr.png)-327px -82px;
+				position: absolute;
+				top:-27px;right:-25px;
+				padding-left: 20px;
+				font-size: 11px;
+				color:#b9b9bb;
+				text-decoration: none;
+		}
+				a.pp_close span {
+					display: inline-block;
+					*display: inline;zoom:1;
+					line-height: normal;
+					border-bottom: 1px dashed #b9b9bb;
+				}
+				a.pp_close:hover span {
+					color:#f0f0f0 !important;
+					border-bottom: 1px dashed #f0f0f0;
+				}
+		a.pp_close:hover {
+			background-position: -327px -101px;
+		}
+		a.pp_next {
+			position: absolute;
+			top:50%;right:-55px;
+			margin-top: -28px;
+		}
+		a.pp_next, .pp_arrow_next {
+			background: url(../img/spr.png) -441px -11px;
+			width:21px;height:56px;
+			display: block;
+			text-indent: -10000px;
+		}
+		a.pp_next:hover, .pp_arrow_next:hover {
+			background-position: -406px -11px;
+		}
+		a.pp_next:active, .pp_arrow_next:active {
+			background-position: -371px -11px;
+		}
+		a.pp_previous {
+			position: absolute;
+			top:50%;left:-55px;
+			margin-top: -28px;
+		}
+		a.pp_previous, .pp_arrow_previous {
+			background: url(../img/spr.png) -327px -11px;
+			width:31px;height:57px;
+			display: block;
+			text-indent: -10000px;
+		}
+		a.pp_previous:hover, .pp_arrow_previous:hover {
+			background-position: -292px -11px;
+		}
+		a.pp_previous:active, .pp_arrow_previous:active {
+			background-position: -257px -11px;
+		}
+		a.pp_arrow_previous, a.pp_arrow_next {
+			position: absolute !important;
+			top:0px;left:-40px;
+		}
+		a.pp_arrow_next {
+			left:auto;right:-40px;
+		}
+
+
+
+
+
+		.pp_gallery {
+			display: block !important;
+			left: 0;bottom:-110px;top:auto;
+			position: absolute;
+			z-index: 10000;
+			width:100% !important;
+			margin-left: 0 !important;
+
+		}
+		
+			.pp_gallery div {
+				float: left;
+				overflow: hidden;
+				position: relative;
+			}
+			
+			.pp_gallery ul {
+				float: left;
+				height: 75px;
+				margin: 0 0 0 5px;
+				padding: 0;
+				position: relative;
+				white-space: nowrap;
+			}
+			
+			.pp_gallery ul a {
+				display: block;
+				float: left;
+				height: 75px;width:100px;
+				overflow: hidden;
+			}
+			
+			.pp_gallery ul a:hover,
+			.pp_gallery li.selected a { border-color: #fff; }
+			
+			.pp_gallery ul a img { border: 0; }
+			
+			.pp_gallery li {
+				display: block;
+				float: left;
+				margin:0 11px;
+				padding: 0;
+			}
+			
+			.pp_gallery li.default a {
+				background: url(../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
+				display: block;
+				height: 33px;
+				width: 50px;
+			}
+			
+			.pp_gallery li.default a img { display: none; }
+			
+			.pp_gallery .pp_arrow_previous,
+			.pp_gallery .pp_arrow_next {
+				margin-top: 7px !important;
+			}
+			.pp_gallery li {
+				position: relative;
+			}
+			.pp_gallery li.selected .sh {
+				display: block;
+				width:100px;height:75px;
+				background: rgba(255,255,255,.8);
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80FFFFFF,endColorstr=#80FFFFFF);
+				zoom:1;
+				position: absolute;
+				top:0;left:0;
+			}
+			.pp_gallery li .sh {
+				display: none;
+			}

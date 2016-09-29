@@ -1,0 +1,183 @@
+#wrap, #page, .index #top .nav, #footer, p, .desc_year, .video a, .video_box, .contact_block,
+.projects li, ul.portfolio li .pic a.title
+{zoom:1;}
+
+
+.index .nav .menu div {
+	text-align: left;
+}
+	.index .nav .menu div a {
+		margin-right:5px;
+	}
+.index .nav .pictogramms li {padding-top: 5px;}
+#header nav ul {*padding-top: 50px;}
+#footer ul.info {
+	padding-top: 15px;
+}
+
+#footer ul.info li {
+	vertical-align: baseline;
+}
+
+#wrap, #epage {
+	_width:970px;
+	_margin: 0 auto;
+	_overflow: hidden;
+	_zoom:1;
+}
+#top .text .inner {_margin-left: 50px;}
+.index .nav .menu ul {_margin-left: 50px;}
+#footer {
+	_width:970px;
+	_margin:0 auto;
+}
+ul.gallery li {
+	*margin-right: 5px;
+}
+input[type="text"], input[type="password"], textarea {
+	*padding-left:0 !important;
+	*padding-right:0 !important;
+}
+input[type="submit"], button {*padding:0;}
+body .video a {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#20000000,endColorstr=#20000000);
+}
+body ul.gallery {
+	*text-align: left;
+}
+body ul.services li a span
+ {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#803b3b3b,endColorstr=#803b3b3b);
+	zoom:1;
+}
+body ul.steps li a span
+ {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#643b3b3b,endColorstr=#643b3b3b);
+	zoom:1;
+}
+body {_height:auto;}
+#content, #side {_overflow:hidden;}
+
+
+
+#epage .inner img,
+#epage .inner .text,
+.index .nav ul li ,
+#header nav li ,
+#footer ul.info li ,
+#side .side_news ul li .pic ,
+body h3 img ,
+body h3 a ,
+body textarea ,
+body #page input ,
+body button ,
+body .examples a span ,
+h1.title ,
+ul.gallery li ,
+ul.gallery li .pic img ,
+ul.gallery li .desc a ,
+ul.gallery li .desc span,
+ul.gallery_small li ,
+ul.gallery_small li .pic img ,
+ul.gallery_small li .desc a ,
+ul.gallery_small li .desc span,
+.callback_form .message_succefull ,
+body ul.cnt_menu li ,
+body .video a span ,
+ul.year_list li ,
+ul.news li .pic ,
+ul.services li ,
+ul.projects li h3 i ,
+ul.steps li ,
+ul.steps li .arr ,
+ul.steps li .pic span span ,
+ul.portfolio li ,
+ul.portfolio li .pic a.title span ,
+ul.portfolio li .pic a.title i,
+.index .slider ul li .menu div a {
+	*display: inline;
+	zoom:1;
+}
+body input[type="submit"],
+body input[type="text"] {
+	*display: inline;
+	zoom:1;
+}
+body ul.portfolio_best {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efe3bf', endColorstr='#efe3bf',GradientType=1 );
+}
+.index .nav {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#81FFFFFF,endColorstr=#81FFFFFF);
+}
+body .bg_box {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efe3bf', endColorstr='#efe3bf', GradientType=1);
+}
+ul.portfolio li .pic a.title {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+}
+#epage .text_box {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#86f4f4f4,endColorstr=#86f4f4f4);
+	zoom:1;
+}
+ul.gallery li,
+ul.services li,
+ul.portfolio li
+{
+	*margin-right: 10px;
+}
+ul.steps li {
+	margin-right: 5px;
+}
+ul.project_vars li .pic {
+}
+ul.gallery_small li {
+	*margin-right: 25px;
+}
+body ul.services li {
+	margin-left: 0;
+}
+body ul.services li span {
+		*padding-left:0;
+		*padding-right:0;
+	}
+body .breadcrumbs {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#70f4f4f4,endColorstr=#70f4f4f4);
+	zoom:1;
+}
+body ul.portfolio_best li {
+	*margin-bottom: 0;
+}
+#header .tel {
+	left: 740px;
+}
+#header .tel .small-phone{
+	padding-left: 0;
+}
+#header .tel .small-phone:before{
+	display: none;
+}
+.client-code{
+	padding-left: 0;
+}
+#footer .client-code{
+	position: static;
+	right: auto;
+	display: block;
+	top:0;
+	margin:0;
+	padding: 0
+}
+.client-code:before{
+	display: none;
+}
+.client-code .visitors_uid{
+	display: inline;
+	zoom: 1;
+	padding:0;
+	margin:0;
+}
