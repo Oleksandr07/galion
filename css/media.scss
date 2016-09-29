@@ -42,6 +42,9 @@ ul{
 .services_more, .news_more{
 	display: none;
 }
+#wrap{
+	min-width: 320px;
+}
 #header{
 	nav{
 		li{
@@ -50,6 +53,11 @@ ul{
 			}
 			&.full_site, &.page_action{
 				display: none;
+			}
+			&.submenu{
+				&>span{
+					text-decoration: underline;
+				}
 			}
 		}
 	}
@@ -170,6 +178,47 @@ img.mobile-show{
 		display: table-cell;
 		vertical-align: middle;	
 	}
+.fancybox-nav{
+	width: 21px;
+    height: 56px;
+    top: 50%;
+    background: url(../img/spr.png);
+    margin-top: -28px;
+	&.fancybox-prev{
+		left: -45px;
+		background-position: -327px -11px;
+		&:hover{
+			background-position: -292px -11px;
+		}
+	}
+	&.fancybox-next{
+		right: -45px;
+		background-position: -441px -11px;
+		&:hover{
+			background-position: -406px -11px;
+		}
+	}
+	span{
+		display: none;
+	}
+}
+.fancybox-close{
+	// right: 0;
+	// top: 0;
+}
+.fancybox-title-inside-wrap{
+	position: absolute;
+    background: rgba(0,0,0,0.86);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
+    line-height: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
 @media only screen and (max-width:1199px){
 	#footer{
 		ul{
@@ -407,6 +456,7 @@ img.mobile-show{
 			}
 			&.portfolio{
 				width: auto;
+				text-align: left;
 				margin: 0 0 30px;
 				padding: 0;
 				li{
@@ -538,6 +588,15 @@ img.mobile-show{
 		padding-top: 150px;
 		padding-left: 0;
 	}
+	
+	.fancybox-nav{
+		&.fancybox-prev{
+			left: 10px;
+		}
+		&.fancybox-next{
+			right: 10px;
+		}
+	}
 }
 
 @media only screen and (max-width:759px) {
@@ -554,7 +613,13 @@ img.mobile-show{
 				width: 100%;
 			}
 		}
+		p, ul.marker, ol, .video_box{
+			font-size: 14px;
+			line-height: 18px;
+		}
 		.video_box{
+			font-size: 14px;
+			line-height: 22px;
 			padding-bottom: 20px;
 		}
 		ul{
@@ -689,6 +754,13 @@ img.mobile-show{
 				vertical-align: top;
 				padding-left: 10px;
 				margin-right: 5px;
+				a{
+					display: inline-block;
+					background: url('../img/arr.png') no-repeat;
+					width: 15px;
+					height: 13px;
+					margin-left: 10px;
+				}
 			}
 		}
 		a{
@@ -700,8 +772,13 @@ img.mobile-show{
 			}
 		}
 		.bg_box{
+			font-size: 18px;
+			line-height: 21px;
 			padding: 15px 20px;
 			margin: 0 -20px 20px;
+			br{
+				display: none;
+			}
 		}
 		p{
 			margin-bottom: 10px;
@@ -731,6 +808,10 @@ img.mobile-show{
 		}
 		.tel{
 			display: none;
+			font-size: 25px;
+			.small-phone{
+				font-size: 19px;
+			}
 		}
 		.navbar-toggle{
 			right: 20px;
@@ -753,9 +834,15 @@ img.mobile-show{
 	#content{
 		float: none;
 		width: auto;
+		font-size: 14px;
 		padding: 0 20px 20px;
 		table{
 			display: none;
+		}
+		.text{
+			p{
+				line-height: 22px;
+			}
 		}
 	}
 	#side, .index #side, .empty{
@@ -809,6 +896,7 @@ img.mobile-show{
 			top: auto;
 			left: auto;
 			height: auto;
+			font-size: 12px;
 			line-height: 14px;
 			a, img, span{
 				margin-right: 2px;
@@ -873,12 +961,14 @@ img.mobile-show{
 					display: none;
 				}
 				h3{
+					font-size: 17px;
 					margin-bottom: 0;
 					i{
 						line-height: 28px;
 					}
 				}
 				p{
+					font-size: 12px;
 					padding-bottom: 0;
 					padding-left: 35px;
 				}
@@ -911,6 +1001,9 @@ img.mobile-show{
 		#content{
 			width: auto;
 			padding-right: 20px;
+			p{
+				line-height: 20px;
+			}
 		}
 		.slider{
 			ul{
@@ -931,7 +1024,9 @@ img.mobile-show{
 							height: auto;
 							h2{
 								font-size: 22px;
-								padding: 12px 0;
+								line-height: 26px;
+								padding: 15px 0;
+								margin-bottom: 0;
 							}
 							p{
 								display: none;
@@ -1089,13 +1184,16 @@ img.mobile-show{
 		right: 0;
 		bottom: 0;
 		display: block;
+		min-width: 320px;
 		background: #4b83b2;
 		color: #fff;
-		font-size: 20px;
+		font-size: 18px;
+		font-family: 'Conv_Europe Normal', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 		text-align: center;
 		padding: 8px 15px;
+		box-sizing: border-box;
 		img{
-			vertical-align: text-top;
+			vertical-align: middle;
 			max-width: 20px;
 			margin-right: 10px;
 		}
@@ -1126,10 +1224,6 @@ img.mobile-show{
 	a.pp_close{
 		right: 0;
 	}
-	#pp_full_res iframe{
-		width: 100%;
-		height: 300px;
-	}
 	.mobile-hide{
 		display: none !important;
 	}
@@ -1144,6 +1238,9 @@ img.mobile-show{
 	}
 	.info_box{
 		display: block;
+		p{
+			line-height: 22px;
+		}
 	}
 }
 @media only screen and (max-width:440px){

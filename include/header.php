@@ -6,7 +6,7 @@
         <nav>
           <ul>
             <li><a href="">О компании</a></li>
-            <li><a href="">Услуги</a>
+            <li><span>Услуги</span>
               <ul>
                 <li><a href="">Зимние сады</a></li>
                 <li><a href="">Двери</a></li>
@@ -20,7 +20,7 @@
                 <li><a href="">Навесы и козырьки</a></li>
               </ul>
             </li>
-            <li><span>Наши работы</span></li>
+            <li><a href="">Наши работы</a></li>
             <li><a href="">Новости</a></li>
             <li><a href="">Контакты</a></li>
             <li class="page_action"><a href="">Акции</a></li>

@@ -52,7 +52,7 @@
             <h2><a href="">Наши работы</a></h2>
             <ul class="gallery">
               <li>
-                <a rel="pretty[gal]" title="Название проекта" href="./img/pic5.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+                <a rel="gallery" title="Название проекта" href="./img/pic5.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
                 <div class="desc_year">
                   <div class="year">
                     <img src="./img/ico2.png" alt="">
@@ -63,7 +63,7 @@
                 </div>
               </li>
               <li>
-                <a rel="pretty[gal]" title="Название проекта" href="./img/pic6.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+                <a rel="gallery" title="Название проекта" href="./img/pic6.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
                 <div class="desc_year">
                   <div class="year">
                     <img src="./img/ico1.png" alt="">
@@ -74,7 +74,7 @@
                 </div>
               </li>
               <li>
-                <a rel="pretty[gal]" title="Название проекта" href="./img/pic5.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+                <a rel="gallery" title="Название проекта" href="./img/pic5.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
                 <div class="desc_year">
                   <div class="year">
                     <img src="./img/ico2.png" alt="">
@@ -85,7 +85,7 @@
                 </div>
               </li>
               <li>
-                <a rel="pretty[gal]" title="Название проекта" href="./img/pic6.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+                <a rel="gallery" title="Название проекта" href="./img/pic6.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
                 <div class="desc_year">
                   <div class="year">
                     <img src="./img/ico1.png" alt="">

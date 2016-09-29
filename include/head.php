@@ -1,5 +1,7 @@
     <link rel="stylesheet" type="text/css" href="./js/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./css/prettyPhoto.css" />
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox-thumbs.css" media="screen" />
     <link rel="stylesheet" type="text/css" media="print" href="./css/print.css" />
     <link rel="stylesheet" type="text/css" href="./css/additions.css" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />

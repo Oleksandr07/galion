@@ -169,39 +169,39 @@
           </div>
           <ul class="gallery">
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic5.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic5.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc">Зимний сад в загородном доме</div>
             </li>
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic6.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic6.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc">Зимний сад в загородном доме</div>
             </li>
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic7.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic7.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc">Зимний сад в загородном доме</div>
             </li>
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic6.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic6.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc">Зимний сад в загородном доме</div>
             </li>
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic5.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic5.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc">Зимний сад в загородном доме</div>
             </li>
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic6.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic6.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc">Зимний сад в загородном доме</div>
             </li>
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic5.jpg" class="pic"><img src="./img/pic4.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic5.jpg" class="fancybox-thumb pic"><img src="./img/pic4.jpg" alt=""></a>
               <div class="desc">Зимний сад в загородном доме</div>
             </li>
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic6.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic6.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc">Зимний сад в загородном доме</div>
             </li>
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic5.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic5.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   2013
@@ -210,7 +210,7 @@
               </div>
             </li>
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic6.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic6.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico1.png" alt="">
@@ -221,7 +221,7 @@
               </div>
             </li>
             <li>
-              <a rel="pretty[gal]" title="Название проекта" href="./img/pic5.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" title="Название проекта" href="./img/pic5.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -232,7 +232,7 @@
               </div>
             </li>
             <li>
-              <a rel="pretty[gal]" href="./img/pic6.jpg" class="pic"><img src="./img/pic3.jpg" alt=""></a>
+              <a rel="gallery" href="./img/pic6.jpg" class="fancybox-thumb pic"><img src="./img/pic3.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico3.png" alt="">

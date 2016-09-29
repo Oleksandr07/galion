@@ -28,14 +28,14 @@
           <ul class="portfolio portfolio_best">
             <li>
               <div class="pic">
-                <a class="main" href="./img/pic5.jpg" rel="pretty[gal]"><img src="./img/p1.jpg" alt=""></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]" class="title"><i></i><span>Фотогалерея</span></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
+                <a class="fancybox-thumb main" href="./img/pic5.jpg" rel="gallery"><img src="./img/p1.jpg" alt=""></a>
+                <a href="./img/pic5.jpg" rel="gallery" class="fancybox-thumb title"><i></i><span>Фотогалерея</span></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
               </div>
               <div class="desc_year">
                 <div class="year">
@@ -47,7 +47,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -58,7 +58,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -69,11 +69,11 @@
               </div>
             </li>
           </ul>
-          <h2 class="portfolio-title">Зимние сады</h2>
+          <h2 class="portfolio-title">Зимние сады <a href=""></a></h2>
           <a class="see-all-works">Смотреть все работы<span></span></a>
           <ul class="portfolio">
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -84,7 +84,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico1.png" alt="">
@@ -95,7 +95,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -106,11 +106,11 @@
               </div>
             </li>
           </ul>
-          <h2 class="portfolio-title">Входные группы, Тамбура</h2>
+          <h2 class="portfolio-title">Входные группы, Тамбура<a href=""></a></h2>
           <a class="see-all-works">Смотреть все работы<span></span></a>
           <ul class="portfolio">
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -121,7 +121,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico1.png" alt="">
@@ -132,7 +132,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -143,10 +143,10 @@
               </div>
             </li>
           </ul>
-          <h2 class="portfolio-title">Офисные перегородки</h2>
+          <h2 class="portfolio-title">Офисные перегородки<a href=""></a></h2>
           <ul class="portfolio">
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -157,7 +157,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico1.png" alt="">

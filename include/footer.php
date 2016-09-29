@@ -19,5 +19,9 @@
     <!-- /footer -->
     <script type="text/javascript" src="./js/jquery-1.8.3.js"></script>
     <script type="text/javascript" src="./js/jquery.prettyPhoto.js"></script>
+    <script src="http://www.youtube.com/player_api"></script>
+    <script type="text/javascript" src="./js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="./js/fancybox/helpers/jquery.fancybox-media.js"></script>
+    <script type="text/javascript" src="./js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
     <script type="text/javascript" src="./js/slick/slick.min.js"></script>
     <script type="text/javascript" src="./js/script.js"></script>

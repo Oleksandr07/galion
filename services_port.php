@@ -41,14 +41,14 @@
           <ul class="portfolio portfolio_best">
             <li>
               <div class="pic">
-                <a class="main" href="./img/pic5.jpg" rel="pretty[gal]"><img src="./img/p1.jpg" alt=""></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]" class="title"><i></i><span>Фотогаллерея</span></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
-                <a href="./img/pic5.jpg" rel="pretty[gal]"></a>
+                <a class="fancybox-thumb main" href="./img/pic5.jpg" rel="gallery"><img src="./img/p1.jpg" alt=""></a>
+                <a href="./img/pic5.jpg" rel="gallery" class="fancybox-thumb title"><i></i><span>Фотогаллерея</span></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
+                <a class="fancybox-thumb" href="./img/pic5.jpg" rel="gallery"></a>
               </div>
               <div class="desc_year">
                 <div class="year">
@@ -60,7 +60,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -71,7 +71,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -84,7 +84,7 @@
           </ul>
           <ul class="portfolio portfolio-more" data-title="portfolio_1" itemscope itemtype="http://schema.org/ImageGallery">
             <li itemscope itemtype="http://schema.org/ImageObject">
-              <a href="./img/pic5.jpg" class="pic" itemprop="contentUrl" data-size="1000x667"><img src="./img/p1.jpg" alt="" itemprop="thumbnail"></a>
+              <a href="./img/pic5.jpg" class="fancybox pic" itemprop="contentUrl" data-size="1000x667"><img src="./img/p1.jpg" alt="" itemprop="thumbnail"></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -95,7 +95,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico1.png" alt="">
@@ -106,7 +106,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -117,7 +117,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
@@ -128,7 +128,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico1.png" alt="">
@@ -139,7 +139,7 @@
               </div>
             </li>
             <li>
-              <a href="./img/pic5.jpg" class="pic"><img src="./img/p1.jpg" alt=""></a>
+              <a href="./img/pic5.jpg" class="fancybox pic"><img src="./img/p1.jpg" alt=""></a>
               <div class="desc_year">
                 <div class="year">
                   <img src="./img/ico2.png" alt="">
