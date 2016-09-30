@@ -4,8 +4,8 @@
           <div class="slider">
             <div class="inner_slider">
               <ul>
-                <li class="item1">
-                  <img src="./img/banner/ban1.jpg" alt="" class="pic">
+                <li class="item1" >
+                  <img src="./img/slider/slider-img-1.jpg" alt="" class="pic">
                   <div class="text">
                     <div class="inner">
                       <h2><a href="">Входная группа</a></h2>
@@ -21,8 +21,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="item2">
-                  <img src="./img/banner/ban2.jpg" alt="" class="pic">
+                <li class="item2" >
+                  <img src="./img/slider/slider-img-1.jpg" alt="" class="pic">
                   <div class="text">
                     <div class="inner">
                       <h2><a href="">Входная группа</a></h2>
@@ -38,8 +38,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="item3">
-                  <img src="./img/banner/ban3.jpg" alt="" class="pic">
+                <li class="item3" >
+                  <img src="./img/slider/slider-img-1.jpg" alt="" class="pic">
                   <div class="text">
                     <div class="inner">
                       <h2><a href="">Входная группа</a></h2>
@@ -55,8 +55,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="item4">
-                  <img src="./img/banner/ban4.jpg" alt="" class="pic">
+                <li class="item4" >
+                  <img src="./img/slider/slider-img-1.jpg" alt="" class="pic">
                   <div class="text">
                     <div class="inner">
                       <h2><a href="">Входная группа</a></h2>
@@ -72,8 +72,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="item5">
-                  <img src="./img/banner/ban5.jpg" alt="" class="pic">
+                <li class="item5" >
+                  <img src="./img/slider/slider-img-1.jpg" alt="" class="pic">
                   <div class="text">
                     <div class="inner">
                       <h2><a href="">Входная группа</a></h2>
@@ -89,8 +89,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="item6">
-                  <img src="./img/banner/ban6.jpg" alt="" class="pic">
+                <li class="item6" >
+                  <img src="./img/slider/slider-img-1.jpg" alt="" class="pic">
                   <div class="text">
                     <div class="inner">
                       <h2><a href="">Входная группа</a></h2>
@@ -106,8 +106,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="item7">
-                  <img src="./img/banner/ban7.jpg" alt="" class="pic">
+                <li class="item7" >
+                  <img src="./img/slider/slider-img-1.jpg" alt="" class="pic">
                   <div class="text">
                     <div class="inner">
                       <h2><a href="">Входная группа</a></h2>
@@ -123,8 +123,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="item8">
-                  <img src="./img/banner/ban8.jpg" alt="" class="pic">
+                <li class="item8" >
+                  <img src="./img/slider/slider-img-1.jpg" alt="" class="pic">
                   <div class="text">
                     <div class="inner">
                       <h2><a href="">Входная группа</a></h2>
@@ -140,8 +140,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="item9">
-                  <img src="./img/banner/ban9.jpg" alt="" class="pic">
+                <li class="item9" >
+                  <img src="./img/slider/slider-img-1.jpg" alt="" class="pic">
                   <div class="text">
                     <div class="inner">
                       <h2><a href="">Входная группа</a></h2>
@@ -157,8 +157,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="item10">
-                  <img src="./img/banner/ban10.jpg" alt="" class="pic">
+                <li class="item10" >
+                  <img src="./img/slider/slider-img-1.jpg" alt="" class="pic">
                   <div class="text">
                     <div class="inner">
                       <h2><a href="">Входная группа</a></h2>

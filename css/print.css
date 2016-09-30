@@ -172,9 +172,6 @@ body #content ul.year_list a.active {
   margin: 100px 0;
   padding-top: 0;
 }
-@media print and (color) {
-  
-}
 ul.services li .pic {
   box-shadow: none;
   border: none;
@@ -194,6 +191,39 @@ body #header {
 #cloudim_chat {
   display: none !important;
 }
- body a.see-all-works{
-  display: none;
- }
+.index .slider ul li {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.index .slider ul li .text {
+  background: #f0fbdc;
+  overflow: visible;
+}
+.index .slider ul li .text:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -160px;
+  width: 160px;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0fbdc+0,f0fbdc+100&0+0,1+100 */
+  background: -moz-linear-gradient(left, rgba(240, 251, 220, 0) 0%, #f0fbdc 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(240, 251, 220, 0) 0%, #f0fbdc 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(240, 251, 220, 0) 0%, #f0fbdc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.index .slider ul li .text .inner {
+  overflow: hidden;
+}
+@media only screen and (max-width: 759px) {
+  .index .slider ul li {
+    background-size: auto 80%;
+    background-position: left 10% top;
+  }
+  .index .slider ul li .text:before {
+    content: none;
+  }
+}
